@@ -4,20 +4,11 @@
         justify-content: space-evenly;
     }
 
-    .logo{
-        position: relative;
-        left: 0;
-    }
-
     .sanduiche{
         display: none;
     }
 
     nav{
         display: flex;
-    }
-
-    .logo{
-        width: auto;
     }
 }
