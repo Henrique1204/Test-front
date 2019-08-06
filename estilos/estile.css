@@ -1,0 +1,59 @@
+header{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+}
+
+.logo{
+    width: 106px;
+    height: 41px;
+}
+
+nav{
+    width: 80%;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    color: #555;
+}
+
+nav>div:first-child{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>div:nth-child(2){
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divisoria{
+    width: 1px;
+    height: 30px;
+    background-color: gray;
+}
+
+.ligue{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ligue>span{
+    margin: 0px 8px;
+}
