@@ -11,9 +11,14 @@
     nav{
         display: flex;
     }
+
+    nav>div:first-child a:hover{
+        color:#0164Bf;
+        font-size: 18px;
+    }
     
     section{
-        height: 110vh;
+        height: 105vh;
     }
     
 }
