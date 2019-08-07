@@ -81,7 +81,6 @@ nav>div:last-child{
 section{
     width: 100vw;
     height: 110vh;
-    margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -114,6 +113,14 @@ h2{
     justify-content: space-between;
     align-items: flex-start;
     background-color: #fff;
+    position: relative;
+}
+
+.linkCard{
+    width: 300px;
+    height: 348px;
+    position: absolute;
+    z-index: 1;
 }
 
 .cardInfo{
@@ -163,11 +170,19 @@ h2{
 }
 
 .empresaAerea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 50px;
-    height: 85px;
+    height: 50px;
     position: absolute;
     right: 18px;
-    bottom: 35px;
+    bottom: 55px;
+}
+
+.empresaAerea>img{
+    width: 35px;
 }
 
 .nomeDaEmpresaAerea{
@@ -193,4 +208,4 @@ h2{
     font-size: 18px;
     line-height: 35px;
     border-radius: 3px;
-}
+}1
