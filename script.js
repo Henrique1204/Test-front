@@ -83,29 +83,31 @@ botaoVoltar.addEventListener("click", function(){
 });
 
 estopim.addEventListener( "click", function(){
-    document.querySelector("body").appendChild(div);
-    div.appendChild(fechar);
-    fechar.textContent = "X";
-    div.appendChild(imagem);
-    imagem.setAttribute("src", "img/icone menu/economia-80x80.webp");
-    div.appendChild(p1);
-    p1.textContent = "Aproveite as vantagens!";
-    div.appendChild(p2);
-    p2.textContent = "Economize muito mais nas suas viagens!";
-    div.appendChild(divButton);
-    divButton.appendChild(facebook);
-    facebook.appendChild(imgFacebook);
-    imgFacebook.setAttribute("src", "img/icone menu/log-facebook.png");
-    facebook.appendChild(pFacebook);
-    pFacebook.textContent = "Acessar com Facebook";
-    divButton.appendChild(google);
-    google.appendChild(imgGoogle);
-    imgGoogle.setAttribute("src", "img/icone menu/icone-google.png");
-    google.appendChild(pGoogle);
-    pGoogle.textContent = "Acessar com Google";
-    div.appendChild(cadastrese);
-    cadastrese.setAttribute("href", "https://www.viajanet.com.br/shop/authentication/#/sign-in");
-    cadastrese.textContent = "Acesse sua conta ou cadastre-se aqui";
+    if(screen.width >= 951  ){
+        document.querySelector("body").appendChild(div);
+        div.appendChild(fechar);
+        fechar.textContent = "X";
+        div.appendChild(imagem);
+        imagem.setAttribute("src", "img/icone menu/economia-80x80.webp");
+        div.appendChild(p1);
+        p1.textContent = "Aproveite as vantagens!";
+        div.appendChild(p2);
+        p2.textContent = "Economize muito mais nas suas viagens!";
+        div.appendChild(divButton);
+        divButton.appendChild(facebook);
+        facebook.appendChild(imgFacebook);
+        imgFacebook.setAttribute("src", "img/icone menu/log-facebook.png");
+        facebook.appendChild(pFacebook);
+        pFacebook.textContent = "Acessar com Facebook";
+        divButton.appendChild(google);
+        google.appendChild(imgGoogle);
+        imgGoogle.setAttribute("src", "img/icone menu/icone-google.png");
+        google.appendChild(pGoogle);
+        pGoogle.textContent = "Acessar com Google";
+        div.appendChild(cadastrese);
+        cadastrese.setAttribute("href", "https://www.viajanet.com.br/shop/authentication/#/sign-in");
+        cadastrese.textContent = "Acesse sua conta ou cadastre-se aqui";
+    }
 });
 
 fechar.addEventListener("click", function(){
