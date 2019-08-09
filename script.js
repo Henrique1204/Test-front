@@ -89,6 +89,7 @@ estopim.addEventListener( "click", function(){
         fechar.textContent = "X";
         div.appendChild(imagem);
         imagem.setAttribute("src", "img/icone menu/economia-80x80.webp");
+        imagem.setAttribute("alt", "imagem sobre economia");
         div.appendChild(p1);
         p1.textContent = "Aproveite as vantagens!";
         div.appendChild(p2);
@@ -97,17 +98,19 @@ estopim.addEventListener( "click", function(){
         divButton.appendChild(facebook);
         facebook.appendChild(imgFacebook);
         imgFacebook.setAttribute("src", "img/icone menu/log-facebook.png");
+        imgFacebook.setAttribute("alt", "logo Facebook");
         facebook.appendChild(pFacebook);
         pFacebook.textContent = "Acessar com Facebook";
         divButton.appendChild(google);
         google.appendChild(imgGoogle);
         imgGoogle.setAttribute("src", "img/icone menu/icone-google.png");
+        imgGoogle.setAttribute("alt", "logo Google");
         google.appendChild(pGoogle);
         pGoogle.textContent = "Acessar com Google";
         div.appendChild(cadastrese);
         cadastrese.setAttribute("href", "https://www.viajanet.com.br/shop/authentication/#/sign-in");
         cadastrese.textContent = "Acesse sua conta ou cadastre-se aqui";
-    }
+    };
 });
 
 fechar.addEventListener("click", function(){
